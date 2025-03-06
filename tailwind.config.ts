@@ -14,7 +14,7 @@ const config: Config = {
         "lg-xl": "17px",
       },
       fontFamily: {
-        landing: ["TTCommons_Custom", "sans-serif"],
+        landing: ["CH_Custom_W_Bk", "sans-serif"],
         "app-normal": ["CH_Custom_W_Bk", "sans-serif"],
         "app-semibold": ["CH_Custom_W_XBd", "sans-serif"],
         "app-bold": ["CH_Custom_W_Blk", "sans-serif"],

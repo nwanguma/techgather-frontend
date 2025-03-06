@@ -3,96 +3,6 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: "Sohne";
-  src: url("/fonts/sohne-400-normal.woff2") format("woff2"),
-    url("/fonts/sohne-400-normal.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "TTCommons_Custom";
-  src: url("/fonts/TTCommons/TTCommonsPro-It.woff2") format("woff2"),
-    url("/fonts/TTCommons/TTCommonsPro-It.woff") format("woff");
-  font-weight: normal;
-  font-style: italic;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "TTCommons_Custom";
-  src: url("/fonts/TTCommons/TTCommonsPro-BdIt.woff2") format("woff2"),
-    url("/fonts/TTCommons/TTCommonsPro-BdIt.woff") format("woff");
-  font-weight: bold;
-  font-style: italic;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "TTCommons_Custom";
-  src: url("/fonts/TTCommons/TTCommonsPro-Bd.woff2") format("woff2"),
-    url("/fonts/TTCommons/TTCommonsPro-Bd.woff") format("woff");
-  font-weight: bold;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "TTCommons_Custom";
-  src: url("/fonts/TTCommons/TTCommonsPro-Bd.woff2") format("woff2"),
-    url("/fonts/TTCommons/TTCommonsPro-Bd.woff") format("woff");
-  font-weight: bold;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "TTCommons_Custom";
-  src: url("/fonts/TTCommons/TTCommonsPro-It.woff2") format("woff2"),
-    url("/fonts/TTCommons/TTCommonsPro-It.woff") format("woff");
-  font-weight: normal;
-  font-style: italic;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "TTCommons_Custom";
-  src: url("/fonts/TTCommons/TTCommonsPro-BdIt.woff2") format("woff2"),
-    url("/fonts/TTCommons/TTCommonsPro-BdIt.woff") format("woff");
-  font-weight: bold;
-  font-style: italic;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "TTCommons_Custom";
-  src: url("/fonts/TTCommons/TTCommonsPro-Lt.woff2") format("woff2"),
-    url("/fonts/TTCommons/TTCommonsPro-Lt.woff") format("woff");
-  font-weight: 300;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "TTCommons_Custom";
-  src: url("/fonts/TTCommons/TTCommonsPro-Md.woff2") format("woff2"),
-    url("/fonts/TTCommons/TTCommonsPro-Md.woff") format("woff");
-  font-weight: 500;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "TTCommons_Custom";
-  src: url("/fonts/TTCommons/TTCommonsPro-Rg.woff2") format("woff2"),
-    url("/fonts/TTCommons/TTCommonsPro-Rg.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
   font-family: "CH_Custom_W_Bd";
   src: url("/fonts/Cereal/AirbnbCerealWBd.woff2") format("woff2"),
     url("/fonts/Cereal/AirbnbCerealWBd.woff") format("woff");
@@ -160,7 +70,7 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
-  font-family: "TTCommons_Custom", sans-serif;
+  font-family: "CH_Custom_W_Bk", sans-serif;
   font-weight: 400;
 }
 
@@ -194,7 +104,7 @@ body {
 
 .custom-quill .ql-editor {
   min-height: 300px !important;
-  font-family: "TTCommons_Custom", "sans-serif" !important;
+  font-family: "CH_Custom_W_Bk", "sans-serif" !important;
   font-weight: 100 !important;
   color: #4b5563 !important;
   font-size: 15px !important;
@@ -243,7 +153,7 @@ body {
 .custom-quill .ql-picker-label::before {
   color: #4b4463 !important;
   font-weight: 400 !important;
-  font-family: "TTCommons_Custom", "sans-serif" !important;
+  font-family: "CH_Custom_W_Bk", "sans-serif" !important;
   font-size: 0.9rem;
 }
 
@@ -271,7 +181,7 @@ body {
 /* Base Article Styles */
 .article-content {
   width: 100%;
-  font-family: "TTCommons_Custom", "Helvetica Neue", Arial, sans-serif;
+  font-family: "CH_Custom_W_Bk", "Helvetica Neue", Arial, sans-serif;
   color: #333;
   line-height: 1.75;
   font-size: 1.05rem;
